@@ -1,0 +1,33 @@
+uvicorn app.main:app --reload
+
+
+
+Implemented:
+
+KML and zipped Shapefile uploads
+Feature extraction with geometry, CRS, properties, and IDs
+Projected CRS handling for metric area/length calculations
+Polygon area and LineString length measurements
+Graceful handling of unsupported geometries
+File summary and measurement endpoints
+
+ZIP path traversal protection
+Tests and setup documentation
+
+
+
+
+
+The 404 responses mean:
+
+GET / has no route defined.
+GET /favicon.ico is the browser looking for a tab icon, which is also not defined.
+Use these URLs instead:
+
+API health check: http://127.0.0.1:8000/health
+Interactive API documentation: http://127.0.0.1:8000/docs
+
+
+
+
+
